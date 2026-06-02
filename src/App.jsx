@@ -638,7 +638,7 @@ export default function DCBikeDestinations() {
                       style={{ border: "none", borderRadius: 12, display: "block" }}
                       loading="lazy"
                       allowFullScreen
-                      src={`https://www.google.com/maps/embed/v1/directions?key=AIzaSyDemo_Replace_With_Real_Key&origin=${encodeURIComponent(schedMeet + " Washington DC")}&destination=${encodeURIComponent(schedDest + " Washington DC")}&mode=bicycling`}
+                      src={`https://www.google.com/maps/embed/v1/directions?key=AIzaSyAw-1QL7LRQZTqaA5mRbolhS630XgxaT9k&origin=${encodeURIComponent(schedMeet + " Washington DC")}&destination=${encodeURIComponent(schedDest + " Washington DC")}&mode=bicycling`}
                     />
                   ) : (
                     <div style={S.mapPlaceholder}>
